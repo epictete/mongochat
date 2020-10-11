@@ -1,0 +1,29 @@
+{
+    "name": "mongochat",
+    "version": "1.0.0",
+    "description": "Simple chat app using sockets",
+    "main": "server.js",
+    "scripts": {
+        "start": "node server",
+        "dev": "nodemon server"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/epictete/mongochat.git"
+    },
+    "author": "epictete",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/epictete/mongochat/issues"
+    },
+    "homepage": "https://github.com/epictete/mongochat#readme",
+    "dependencies": {
+        "colors": "^1.4.0",
+        "express": "^4.17.1",
+        "mongodb": "^3.6.2",
+        "socket.io": "^2.3.0"
+    },
+    "devDependencies": {
+        "nodemon": "^2.0.4"
+    }
+}
